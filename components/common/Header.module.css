@@ -1,0 +1,14 @@
+.navHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+.logoContainer {
+  display: flex;
+}
+
+.logo {
+  width: 10rem;
+}
