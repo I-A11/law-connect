@@ -1,4 +1,4 @@
-/* Global Css */
+/* Global Styles */
 
 * {
   padding: 0;
@@ -9,4 +9,38 @@
 html,
 body {
   font-family: "Nunito Sans", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*  global classes */
+
+/* section */
+
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+    width: 95vw;
+  }
+}
+
+/* Button */
+
+.primaryBtn {
+  background: #2ab7fd;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
 }

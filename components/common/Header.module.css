@@ -11,4 +11,81 @@
 
 .logo {
   width: 10rem;
+  cursor: pointer;
+}
+
+.navToggle {
+  background: transparent;
+  border: none;
+  transition: all 0.3s linear;
+}
+
+.navToggle:hover {
+  transform: rotate(90deg);
+}
+
+.links {
+  color: #fff;
+  font-size: 1rem;
+  text-transform: capitalize;
+  display: block;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.links li {
+  padding: 0.5rem 1rem;
+  transition: all 0.3s linear;
+}
+
+.links li:hover {
+  padding-left: 1.5rem;
+}
+
+.linksContainer {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+.showContainer {
+  height: 7rem;
+}
+
+@media screen and (min-width: 800px) {
+  .navCenter {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .navHeader {
+    padding: 0;
+  }
+
+  .navToggle {
+    display: none;
+  }
+
+  .linksContainer {
+    height: auto !important;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+  }
+
+  .links li {
+    padding: 0;
+    margin: 0 1rem;
+  }
+
+  .links li:hover {
+    padding: 0;
+  }
 }
