@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import Header from "../common/Header";
 import styles from "./HomeHero.module.css";

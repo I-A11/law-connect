@@ -35,17 +35,17 @@ const Header = () => {
         >
           <ul className={styles.links}>
             <li>
-              <Link href='/people'>
+              <Link href='/people' passHref>
                 <div>For People</div>
               </Link>
             </li>
             <li>
-              <Link href='/businesses'>
+              <Link href='/businesses' passHref>
                 <div>For Businesses</div>
               </Link>
             </li>
             <li>
-              <Link href='/contact'>
+              <Link href='/contact' passHref>
                 <div>Contact</div>
               </Link>
             </li>
@@ -55,7 +55,7 @@ const Header = () => {
               className={styles.loginLinks}
               onClick={() => setShowLinks(false)}
             >
-              <Link href='/'>
+              <Link href='/' passHref>
                 <div>Login</div>
               </Link>
             </div>
@@ -63,7 +63,7 @@ const Header = () => {
               className={styles.loginLinks}
               onClick={() => setShowLinks(false)}
             >
-              <Link href='/'>
+              <Link href='/' passHref>
                 <button className='primaryBtn'>Create Free Account</button>
               </Link>
             </div>

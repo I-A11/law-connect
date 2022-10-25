@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "../common/Card";
 import styles from "./Solution.module.css";
 import SafeImage from "../../assets/images/lc-safe-docs@2x.jpg";
