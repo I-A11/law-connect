@@ -44,3 +44,12 @@ a {
   padding: 0.5rem;
   cursor: pointer;
 }
+
+/* placeholder */
+
+.placeholder {
+  padding-top: 10rem;
+  width: 100%;
+  height: 700px;
+  text-align: center;
+}

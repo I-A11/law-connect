@@ -5,7 +5,9 @@ const people = () => {
   return (
     <div className={styles.container}>
       <Header />
-      <h1>For People Page Placeholder</h1>
+      <div className='placeholder'>
+        <h1>For People Page Placeholder</h1>
+      </div>
     </div>
   );
 };

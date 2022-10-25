@@ -5,7 +5,9 @@ const businesses = () => {
   return (
     <div className={styles.container}>
       <Header />
-      <h1>Businesses Page Placeholder</h1>
+      <div className='placeholder'>
+        <h1>Businesses Page Placeholder</h1>
+      </div>
     </div>
   );
 };
