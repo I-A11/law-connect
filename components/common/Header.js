@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./Header.module.css";
@@ -6,6 +6,8 @@ import navToggle from "../../assets/icons/menu-mobile.svg";
 import Logo from "../../assets/logos/LawConnect-logo-reverse-RGB.svg";
 
 const Header = () => {
+  const [showLinks, setShowLinks] = useState(false);
+
   return (
     <nav>
       <div className={styles.navCenter}>
@@ -17,11 +19,20 @@ const Header = () => {
               </Link>
             </div>
           </div>
-          <button className={styles.navToggle}>
+          <button
+            className={styles.navToggle}
+            onClick={() => setShowLinks(!showLinks)}
+          >
             <Image src={navToggle} width={20} />
           </button>
         </div>
-        <div className={`${styles.linksContainer} ${styles.showContainer}`}>
+        <div
+          className={`${
+            showLinks
+              ? `${styles.linksContainer} ${styles.showContainer}`
+              : `${styles.linksContainer}`
+          }`}
+        >
           <ul className={styles.links}>
             <li>
               <Link href='/people'>
@@ -39,19 +50,19 @@ const Header = () => {
               </Link>
             </li>
           </ul>
+          <div className={styles.loginContainer}>
+            <div className={styles.loginLinks}>
+              <Link href='/'>
+                <div>Login</div>
+              </Link>
+            </div>
+            <div className={styles.loginLinks}>
+              <Link href='/'>
+                <button className='primaryBtn'>Create Free Account</button>
+              </Link>
+            </div>
+          </div>
         </div>
-        <ul className={styles.links}>
-          <li>
-            <Link href='/'>
-              <div>Login</div>
-            </Link>
-          </li>
-          <li>
-            <Link href='/'>
-              <button className='primaryBtn'>Create Free Account</button>
-            </Link>
-          </li>
-        </ul>
       </div>
     </nav>
   );

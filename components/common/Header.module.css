@@ -34,13 +34,20 @@
   cursor: pointer;
 }
 
-.links li {
+.links li,
+.loginLinks {
   padding: 0.5rem 1rem;
   transition: all 0.3s linear;
 }
 
-.links li:hover {
+.links li:hover,
+.loginLinks:hover {
   padding-left: 1.5rem;
+}
+
+.loginContainer {
+  margin-left: 0.5rem;
+  font-weight: bold;
 }
 
 .linksContainer {
@@ -50,10 +57,10 @@
 }
 
 .showContainer {
-  height: 7rem;
+  height: 15rem;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 915px) {
   .navCenter {
     max-width: 1170px;
     margin: 0 auto;
@@ -73,6 +80,9 @@
 
   .linksContainer {
     height: auto !important;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
   }
 
   .links {
@@ -80,12 +90,19 @@
     align-items: center;
   }
 
-  .links li {
+  .links li,
+  .loginLinks {
     padding: 0;
     margin: 0 1rem;
   }
 
-  .links li:hover {
+  .links li:hover,
+  .loginLinks:hover {
     padding: 0;
+  }
+
+  .loginContainer {
+    display: flex;
+    align-items: center;
   }
 }
