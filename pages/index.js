@@ -1,5 +1,6 @@
 import Head from "next/head";
 import HomeHero from "../components/home/HomeHero";
+import Solution from "../components/home/Solution";
 
 const defaultTitle = "Find your lawyer. Connect online. | LawConnect";
 const defaultDescription =
@@ -20,6 +21,7 @@ const HomePage = ({
         </style>
       </Head>
       <HomeHero />
+      <Solution />
     </div>
   );
 };

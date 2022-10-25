@@ -1,0 +1,28 @@
+.container {
+  background: #fff;
+}
+
+.container h2 {
+  font-size: 2.25rem;
+  color: #0a49af;
+  letter-spacing: -0.54px;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.cardContainer {
+  display: flex;
+}
+
+@media screen and (max-width: 915px) {
+  .cardContainer {
+    flex-direction: column-reverse;
+  }
+
+  .container h2 {
+    font-size: 1.5rem;
+    color: #0a49af;
+    letter-spacing: -0.24px;
+    margin: 2rem 0;
+  }
+}
