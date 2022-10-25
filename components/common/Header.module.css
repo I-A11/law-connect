@@ -18,6 +18,7 @@
   background: transparent;
   border: none;
   transition: all 0.3s linear;
+  cursor: pointer;
 }
 
 .navToggle:hover {
@@ -48,6 +49,7 @@
 .loginContainer {
   margin-left: 0.5rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .linksContainer {

@@ -1,4 +1,6 @@
 import React from "react";
+import Header from "../components/common/Header";
+import styles from "../components/home/HomeHero.module.css";
 
 const contact = () => {
   return (

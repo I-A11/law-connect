@@ -51,12 +51,18 @@ const Header = () => {
             </li>
           </ul>
           <div className={styles.loginContainer}>
-            <div className={styles.loginLinks}>
+            <div
+              className={styles.loginLinks}
+              onClick={() => setShowLinks(false)}
+            >
               <Link href='/'>
                 <div>Login</div>
               </Link>
             </div>
-            <div className={styles.loginLinks}>
+            <div
+              className={styles.loginLinks}
+              onClick={() => setShowLinks(false)}
+            >
               <Link href='/'>
                 <button className='primaryBtn'>Create Free Account</button>
               </Link>
