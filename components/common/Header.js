@@ -9,7 +9,7 @@ const Header = () => {
   const [showLinks, setShowLinks] = useState(false);
 
   return (
-    <nav>
+    <nav className={styles.nav}>
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
           <div className={styles.logoContainer}>
