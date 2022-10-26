@@ -27,6 +27,10 @@
     display: none;
   }
 
+  .heroDesktopImage {
+    padding: 0 3rem;
+  }
+
   .heroContainer {
     display: flex;
     flex-direction: row-reverse;
@@ -86,8 +90,27 @@
   }
 }
 
+@media screen and (max-width: 914px) {
+  .HeroMobileImage {
+    margin: 3rem 4rem;
+  }
+
+  .heroText {
+    margin: auto;
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 440px) {
   .heroText {
     width: 100%;
+  }
+
+  .heroText h1 {
+    font-size: 2rem;
+  }
+
+  .HeroMobileImage {
+    margin: 3rem 2rem;
   }
 }

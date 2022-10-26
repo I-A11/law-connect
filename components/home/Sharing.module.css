@@ -29,7 +29,7 @@
 }
 
 .sharingImage {
-  margin: 0 5rem 0;
+  padding: 0 4rem 0;
 }
 
 @media screen and (max-width: 915px) {
@@ -60,15 +60,20 @@
 
   .sharingImage {
     padding: 0;
-    margin: 0;
+    margin: 0 4rem;
   }
 
   .sharingText {
-    margin-left: 1rem;
-    text-align: left;
+    margin-left: 0;
   }
 
   .sharingText p {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sharingImage {
+    margin: 0 1rem;
   }
 }

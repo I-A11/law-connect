@@ -1,0 +1,59 @@
+.container {
+  background: #fff;
+  padding: 1rem 0 2rem;
+}
+
+.signingSection {
+  display: flex;
+  align-items: center;
+}
+
+.signingDesktopImage {
+  margin-top: 2rem;
+  padding: 0 13rem 0 7rem;
+}
+
+.signingText h2 {
+  letter-spacing: -0.54px;
+  color: #0a49af;
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+.signingText p {
+  letter-spacing: 0.08px;
+  color: #191919cc;
+  width: 95%;
+}
+
+@media screen and (min-width: 915px) {
+  .signingMobileImage {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .signingText h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  .signingDesktopImage {
+    display: none;
+  }
+  .signingSection {
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+
+  .signingMobileImage {
+    padding: 0 1rem;
+  }
+
+  .signingText h2 {
+    letter-spacing: -0.24px;
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
+  }
+}
