@@ -18,7 +18,7 @@ const Signing = () => {
             <h2>Signing Documents Electronically</h2>
             <p>
               LawConnect integrates with DocuSign to provide our users with a
-              quick, easy and secure way to sign importnt legal documents
+              quick, easy and secure way to sign important legal documents
               online.
             </p>
           </div>

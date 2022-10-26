@@ -37,6 +37,8 @@ a {
 /* Button */
 
 .primaryBtn {
+  font-family: "Nunito Sans";
+  font-weight: bold;
   background: #2ab7fd;
   border-radius: 5px;
   color: #fff;

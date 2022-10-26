@@ -35,6 +35,7 @@
 @media screen and (max-width: 915px) {
   .sharingSection {
     flex-direction: column-reverse;
+    padding: 2.5rem 0 2rem 0;
   }
 
   .sharingImage {
@@ -74,6 +75,6 @@
 
 @media screen and (max-width: 500px) {
   .sharingImage {
-    margin: 0 1rem;
+    margin: 0 1rem 1rem;
   }
 }
