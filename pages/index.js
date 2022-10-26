@@ -3,6 +3,7 @@ import HomeHero from "../components/home/HomeHero";
 import Sharing from "../components/home/Sharing";
 import Signing from "../components/home/Signing";
 import Solution from "../components/home/Solution";
+import Footer from "../components/common/Footer";
 
 const defaultTitle = "Find your lawyer. Connect online. | LawConnect";
 const defaultDescription =
@@ -26,6 +27,7 @@ const HomePage = ({
       <Solution />
       <Sharing />
       <Signing />
+      <Footer />
     </div>
   );
 };
