@@ -21,7 +21,7 @@ const Sharing = () => {
             </p>
           </div>
           <div className={styles.sharingImage}>
-            <Image src={ShareImage} />
+            <Image src={ShareImage} alt='Sharing image' />
           </div>
         </div>
       </div>

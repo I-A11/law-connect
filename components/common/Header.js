@@ -15,15 +15,16 @@ const Header = () => {
           <div className={styles.logoContainer}>
             <div className={styles.logo}>
               <Link href='/'>
-                <Image src={Logo} />
+                <Image src={Logo} alt='Logo' />
               </Link>
             </div>
           </div>
           <button
             className={styles.navToggle}
             onClick={() => setShowLinks(!showLinks)}
+            aria-label='Toggle button'
           >
-            <Image src={navToggle} width={20} />
+            <Image src={navToggle} width={20} alt='Toggle icon' />
           </button>
         </div>
         <div

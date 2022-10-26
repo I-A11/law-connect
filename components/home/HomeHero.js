@@ -11,10 +11,10 @@ const HomeHero = () => {
       <div className='section'>
         <div className={styles.heroContainer}>
           <div className={styles.HeroMobileImage}>
-            <Image src={HeroMobileImage} />
+            <Image src={HeroMobileImage} alt='Hero mobile image' />
           </div>
           <div className={styles.heroDesktopImage}>
-            <Image src={HeroDesktopImage} />
+            <Image src={HeroDesktopImage} alt='Hero desktop image' />
           </div>
           <div className={styles.heroText}>
             <h1>The place to work with your lawyer</h1>

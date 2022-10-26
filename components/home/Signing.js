@@ -9,10 +9,10 @@ const Signing = () => {
       <div className='section'>
         <div className={styles.signingSection}>
           <div className={styles.signingDesktopImage}>
-            <Image src={SigningDesktopImage} />
+            <Image src={SigningDesktopImage} alt='Signing desktop image' />
           </div>
           <div className={styles.signingMobileImage}>
-            <Image src={SigningMobileImage} />
+            <Image src={SigningMobileImage} alt='Signing mobile image' />
           </div>
           <div className={styles.signingText}>
             <h2>Signing Documents Electronically</h2>
