@@ -10,6 +10,16 @@ npm run dev
 yarn dev
 ```
 
+Then, Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+If you fork it you will need to install node_modules:
+
+```bash
+npm install
+#or
+yarn install
+```
+
 ## Project
 
 ### Law Connect
