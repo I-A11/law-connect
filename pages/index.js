@@ -20,7 +20,7 @@ const HomePage = ({
         <meta name='description' content={description} />
         <style>
           @import
-          url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,700;0,800;0,900;1,300;1,600;1,900&family=Nunito:wght@200&display=swap');
+          url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,700;0,800;0,900;1,300;1,600;1,900&family=Nunito:wght@200&display=swap");
         </style>
       </Head>
       <HomeHero />
